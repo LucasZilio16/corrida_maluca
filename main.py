@@ -22,7 +22,7 @@ posYCar1 = 30
 posYCar2 = 120
 posYCar3 = 210
 vitoria = pygame.mixer.Sound("assets/vitoria.mp3")
-vitoria.set_volume(0.5)
+vitoria.set_volume(1.0)
 pygame.mixer.music.load("assets/trilha.mp3")
 pygame.mixer.music.play(-1)
 acabou = False
