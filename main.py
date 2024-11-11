@@ -44,7 +44,7 @@ def exibir_ranking(distancias):
         tela.blit(texto, (370, 100 + i * 50))
     
     pygame.display.update()
-    pygame.time.delay(5000)  
+    pygame.time.delay(3000)  
 
 while True:
     for evento in pygame.event.get():
