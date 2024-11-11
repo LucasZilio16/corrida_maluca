@@ -28,12 +28,10 @@ pygame.mixer.music.play(-1)
 acabou = False
 somDaVitoria = False
 vencedor = None
-
 def exibir_ranking(distancias):
     tela.fill(branco)
     tela.blit(fundo_vitoria, (0, 0))
     fonte = pygame.font.Font("freesansbold.ttf", 20)
-    
    
     carros = [("Vermelho", distancias[0]), ("Amarelo", distancias[1]), ("Azul", distancias[2])]
     carros.sort(key=lambda x: x[1], reverse=True)  
